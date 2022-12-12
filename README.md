@@ -28,7 +28,7 @@
 *  Given the large size of the NYGC ALS cohort, RNA-Seq data were produced on 2 different sequencing platforms. Exploratory analyses showed a substantial batch effect in gene expression due to the 2 sequencing platforms.
 
 
-Conclusions
+### Conclusions
 *  Criteria for quality control, library preparation, and sample availability are very good
 *  Caveat: platform-driven batch effect
    *  Address with multifactor design
