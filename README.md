@@ -61,4 +61,3 @@ The hippocampus displays highest number of differentially expressed genes, supor
 
 ## XYZ are deregulated in ALS Spectrum MND hippocampus tissue.
 
-<file:///Users/emmatungcorcoran/Documents/Novartis%20Interview/hallmark_pathways.html>
