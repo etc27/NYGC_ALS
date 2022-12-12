@@ -57,3 +57,8 @@ I compared differentially expressed genes by tissue type for ALS Spectrum MND vs
 ### Conclusions
 
 The hippocampus displays highest number of differentially expressed genes, suporting the hypothesis that this tissue is more affected by the disease. These results are also observed when comparing ALS Spectrum MND, Other Neurological Disorders vs. Non-Neurological Control.
+
+
+## XYZ are deregulated in ALS Spectrum MND hippocampus tissue.
+
+file:///Users/emmatungcorcoran/Documents/Novartis%20Interview/hallmark_pathways.html
