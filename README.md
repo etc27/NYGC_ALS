@@ -35,3 +35,24 @@
 *  Imbalanced nature of the dataset (unequal case/controls) might pose problems for some machine learning applications
 
 
+## Hippocampus displays highest number of differentially expressed genes
+
+I compared differentially expressed genes by tissue type for ALS Spectrum MND vs. Non-Neurological Control using DESeq2 (Log2foldchange>1).
+
+*  Spinal cord thoracic (68 samples) – 111 DEGs
+*  Spinal cord lumbar (223 samples) – 1071 DEGs
+*  Spinal cord cervical (239 samples) – 946 DEGs
+*  Cortex motor medial (122 samples) – 694 DEGs
+*  Cortex motor lateral (125 samples) – 665 DEGs
+*  Cortex motor unspecified (70 samples) – 75 DEGs
+*  Cortex occipital (74 samples) – 1 DEG
+*  Cortex frontal (303 samples) – 439 DEGs
+*  Cortex temporal (84 samples) – 142 DEGs
+*  Cerebellum (300 samples) – 1134 DEGs
+*  Hippocampus (51 samples) – 3701 DEGs
+
+![image](https://user-images.githubusercontent.com/72508803/207172939-47b2097d-4fe0-4c49-be09-c1fcdbc0a69b.png)
+
+### Conclusions
+
+The hippocampus displays highest number of differentially expressed genes, suporting the hypothesis that this tissue is more affected by the disease. These results are also observed when comparing ALS Spectrum MND, Other Neurological Disorders vs. Non-Neurological Control.
