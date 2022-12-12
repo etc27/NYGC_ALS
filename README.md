@@ -1,7 +1,7 @@
 # Exploring external NYGC Amyotrophic Lateral Sclerosis dataset GSE153960
 [Gene Expression Omnibus Link](https://www.google.com](https://ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153960)
 
-[Prudencio, Humphrey, Pickles, et. al, J Clin Invest. (2020)]([https://www.google.com](https://ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153960](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7598060/#sd))
+[Prudencio, Humphrey, Pickles, et. al, J Clin Invest. (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7598060/#sd)
 
 
 
