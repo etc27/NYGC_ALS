@@ -7,8 +7,8 @@
 
 ## Experimental Design of NYGC ALS Consortium RNA-Seq
 1659 samples from 11 tissues and 439 donors
--  Disease state:
-  -  Non-Neurological Control (280 samples)
+*  Disease state
+  *  Non-Neurological Control (280 samples)
 
 
 Disease state:
