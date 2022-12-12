@@ -63,4 +63,4 @@ The hippocampus displays highest number of differentially expressed genes, supor
 
 I performed enriched pathway analysis using the [Hallmark gene set](https://www.gsea-msigdb.org/gsea/msigdb/collection_details.jsp#H), KEGG pathways, and GO annotations with fast preranked gene set enrichment analysis (GSEA). I found a number of dysregulated pathways, including phosphorylation, MYC signaling, mTORC1 signaling.
 
-[a relative link](go_hippocampus.html)
+[a relative link](Users/emmatungcorcoran/Documents/Novartis%20Interview/hallmark_pathways.html)
