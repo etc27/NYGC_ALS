@@ -64,3 +64,7 @@ The hippocampus displays highest number of differentially expressed genes, supor
 I performed enriched pathway analysis using the [Hallmark gene set](https://www.gsea-msigdb.org/gsea/msigdb/collection_details.jsp#H), KEGG pathways, and GO annotations with fast preranked gene set enrichment analysis (GSEA). I found a number of dysregulated pathways, including phosphorylation, MYC signaling, mTORC1 signaling.
 
 ![Hallmark gene set](https://user-images.githubusercontent.com/72508803/207180754-28e41123-e6e4-4bfc-a792-616ec4dcf10c.png)
+
+### Conclusions
+
+A recent review of pathways affected in ALS [Gall et. al, J. Pers Med (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7564998/#:~:text=Here%2C%20the%20different%20pathways%20that,homeostasis%2C%20and%20aberrant%20RNA%20metabolism.) discussed the following pathways in detail: mitochondrial dysfunction, oxidative stress, axonal transport dysregulation, glutamate excitotoxicity, endosomal and vesicular transport impairment, impaired protein homeostasis, and aberrant RNA metabolism.
