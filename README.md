@@ -49,8 +49,9 @@ I compared differentially expressed genes by tissue type for ALS Spectrum MND vs
 *  Cortex frontal (303 samples) – 439 DEGs
 *  Cortex temporal (84 samples) – 142 DEGs
 *  Cerebellum (300 samples) – 1134 DEGs
-*  Hippocampus (51 samples) – 3701 DEGs
+*  **Hippocampus (51 samples) – 3701 DEGs**
 
+**Volcano Plot of Hippocampus RNA-seq data**
 ![image](https://user-images.githubusercontent.com/72508803/207172939-47b2097d-4fe0-4c49-be09-c1fcdbc0a69b.png)
 
 ### Conclusions
