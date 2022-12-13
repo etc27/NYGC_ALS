@@ -105,4 +105,14 @@ When the targeted tissue type has a relatively stable composition over several s
 
 
 ## Future Directions
+**Goal: understanding the etiology and molecular underpinning of Amyotrophic Lateral Sclerosis**
 
+*  Further analysis of DEGs in hippocampus
+   *  Examining expression levels of these DEGs in different tissues
+*  Pathway analysis and deconvolution in other tissues (e.g. cerebellum)
+*  Spatial transcriptomic approach on tissues of interest to see where exactly the differentially expressed genes are and how cells expressing them differ in their tissue architecture. 
+   *  [10X Visium sequencing](https://www.10xgenomics.com/spatial-transcriptomics): cell capture slides that contain four capture areas with 5,000 barcoded spots
+   *  [MERFISH spatial profiling](https://vizgen.com/technology/): built upon single molecule FISH
+*  Regression task to see if there are genes/genes in tissues that are predictive or correlated with disease severity
+*  Cluster the transcriptomes of patient samples into distinct molecular subtypes
+   *  [Tam et. al, Cel Rep. (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6866666/) did these types of analyses in cortex samples from this dataset
