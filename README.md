@@ -74,7 +74,21 @@ I performed enriched pathway analysis using the [Hallmark gene set](https://www.
 A recent review of pathways affected in ALS ([Gall et. al, J. Pers Med (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7564998/#:~:text=Here%2C%20the%20different%20pathways%20that,homeostasis%2C%20and%20aberrant%20RNA%20metabolism.)) discussed the following pathways in detail: mitochondrial dysfunction, oxidative stress, axonal transport dysregulation, glutamate excitotoxicity, endosomal and vesicular transport impairment, impaired protein homeostasis, and aberrant RNA metabolism. The dysregulated pathways make sense in this context. For example, affected oxidative phosphorylation and MYC signaling are related to oxidative stress, while dysregulated mTORC1 signaling is related to mitochondrial dysfunction.
 
 ## Evaluating potential changes in cell population abundance correlated to disease state.
-[Bisque](https://www.nature.com/articles/s41467-020-15816-6), a tool for estimating cell type proportions in bulk expression.
+
+### Methods for decomposing bulk expression
+[Bisque](https://www.nature.com/articles/s41467-020-15816-6): a tool for estimating cell type proportions in bulk expression.
+
+[CIBERSORT](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5895181/): SVM-regression-based approach, utilizes a reference generated from purified cell populations
+Major limitation: reliance on sorting cells to estimate a reference gene expression panel
+
+[BSEQ-sc](https://pubmed.ncbi.nlm.nih.gov/27667365/): generates a reference profile from single-cell expression data that is used in CIBERSORT
+MuSiC16: leverages single-cell expression as a reference, weighted non-negative least-squares regression (NNLS) model for decomposition
+
+[MuSiC](https://www.nature.com/articles/s41467-018-08023-x): leverages single-cell expression as a reference, weighted non-negative least-squares regression (NNLS) model for decomposition
+
+
+
+
 
 [Jin & Lu, Genome Biology (2021)](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02290-6) provides a thorough analysis of various deconvolution methods.
 
