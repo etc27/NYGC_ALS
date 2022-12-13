@@ -76,4 +76,5 @@ A recent review of pathways affected in ALS ([Gall et. al, J. Pers Med (2020)](h
 ## Evaluating potential changes in cell population abundance correlated to disease state.
 [Bisque](https://www.nature.com/articles/s41467-020-15816-6), a tool for estimating cell type proportions in bulk expression.
 
-
+[Jin & Lu, Genome Biology (2021)](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02290-6)
+"For deconvolution analysis, we suggest that researchers (1) use the quantification unit (countNorm, cpm, or tpm) that is normalized by library sizes; (2) check for the compositional information from previous publications. When the targeted tissue type has a relatively stable composition over several samples, consider using deconvolution methods that are robust to non-orthogonal weight matrices such as CIBERSORT, CIBERSORTx, and MuSiC." 
