@@ -92,7 +92,9 @@ MuSiC16: leverages single-cell expression as a reference, weighted non-negative 
 [Jin & Lu, Genome Biology (2021)](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02290-6) provides a thorough analysis of various deconvolution methods.
 
 Ideally: obtain reference compositional information from previous publications
-*  [Hipposeq](https://elifesciences.org/articles/14997): a comprehensive RNA-seq database of gene expression in hippocampal principal neurons (in mice)
+*  [PsychEncode Consortium](https://elifesciences.org/articles/14997): The PEC is producing a public resource of multi‐dimensional genomic data using unbiased genome‐wide approaches on tissue and cell‐type specific samples from approximately 1,000 phenotypically well‐characterized healthy and diseased human post‐mortem brains
+   *  Bulk RNA-seq Decomposition and Deconvolution with Single-cell Data
+   *  Brain Cell-type Marker Genes and Single-cell Expression Data (in units of TPM), from PEC (Developmental), Darmanis et al. 2015 and Lake et al. 2016
 *  [BisqueMarker](https://www.nature.com/articles/s41467-020-15816-6): reference-free method providing cell-type abundance estimations using only known marker genes - a weighted PCA-based (wPCA) decomposition approach
 When the targeted tissue type has a relatively stable composition over several samples: deconvolution methods that are robust to non-orthogonal weight matrices (e.g. CIBERSORT, CIBERSORTx, MuSiC)
 
