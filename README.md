@@ -102,5 +102,5 @@ When the targeted tissue type has a relatively stable composition over several s
 *  Concordant results upon downstream analysis will provide strong evidence of successful cell type identification
 
 
-## Next steps
+## Future Directions
 
