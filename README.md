@@ -87,9 +87,21 @@ MuSiC16: leverages single-cell expression as a reference, weighted non-negative 
 [MuSiC](https://www.nature.com/articles/s41467-018-08023-x): leverages single-cell expression as a reference, weighted non-negative least-squares regression (NNLS) model for decomposition
 
 
-
-
-
 [Jin & Lu, Genome Biology (2021)](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02290-6) provides a thorough analysis of various deconvolution methods.
 
 "For deconvolution analysis, we suggest that researchers (1) use the quantification unit (countNorm, cpm, or tpm) that is normalized by library sizes; (2) check for the compositional information from previous publications. When the targeted tissue type has a relatively stable composition over several samples, consider using deconvolution methods that are robust to non-orthogonal weight matrices such as CIBERSORT, CIBERSORTx, and MuSiC." 
+
+### Approach
+
+Ideally: obtain reference compositional information from previous publications
+*  Hipposeq: a comprehensive RNA-seq database of gene expression in hippocampal principal neurons (in mice)
+*  BisqueMarker: reference-free method providing cell-type abundance estimations using only known marker genes - a weighted PCA-based (wPCA) decomposition approach
+When the targeted tissue type has a relatively stable composition over several samples: deconvolution methods that are robust to non-orthogonal weight matrices (e.g. CIBERSORT, CIBERSORTx, MuSiC)
+
+### Conclusions
+
+*  Approach: Utilize multiple deconvolution techniques independently
+*  Concordant results upon downstream analysis will provide strong evidence of successful cell type identification
+
+
+
