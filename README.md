@@ -27,6 +27,10 @@
     *  a duplication rate of less than 0.5%
 *  Given the large size of the NYGC ALS cohort, RNA-Seq data were produced on 2 different sequencing platforms. Exploratory analyses showed a substantial batch effect in gene expression due to the 2 sequencing platforms.
 
+### Data Processing
+
+For data processing, I selected metadata from SRA Run Selector and counts data from GEO. I noticed there was an omission of 20 cerebellum samples from the SRA Run Selector metadata. I went into the metadata files from individual sequencing platforms and added data corresponding to those 20 samples to the metadata.
+
 
 ### Conclusions
 *  Criteria for quality control, library preparation, and sample availability are very good
