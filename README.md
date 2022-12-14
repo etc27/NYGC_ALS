@@ -115,7 +115,8 @@ When the targeted tissue type has a relatively stable composition over several s
    *  Classification to predict disease state from transcriptomics (with existing metadata)
 *  Cluster the transcriptomes of patient samples into distinct molecular subtypes
    *  [Tam et. al, Cel Rep. (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6866666/) did these types of analyses in cortex samples from this dataset
-
+*  [Weighted correlation network analysis](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-559) (WGCNA) to find clusters (modules) of highly correlated genes
+   *  [Wang et. al, Scientific Reports (2021)](https://www.nature.com/articles/s41598-021-85061-4) did this analysis focusing on the spinal cord in ALS patients
 *  ChIP-seq/ ATAC-seq
    *  TDP-43 is a nuclear protein in a non-disease state [(Chen-Plotkin, et. al, Nat Rev Neurol. (2010))](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2892118/)
 *  Spatial transcriptomic approach on tissues of interest to see where exactly the differentially expressed genes are and how cells expressing them differ in their tissue architecture
