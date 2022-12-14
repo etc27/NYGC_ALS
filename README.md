@@ -110,9 +110,13 @@ When the targeted tissue type has a relatively stable composition over several s
 *  Further analysis of DEGs in hippocampus
    *  Examining expression levels of these DEGs in different tissues
 *  Pathway analysis and deconvolution in other tissues (e.g. cerebellum)
-*  Spatial transcriptomic approach on tissues of interest to see where exactly the differentially expressed genes are and how cells expressing them differ in their tissue architecture
-   *  [10X Visium sequencing](https://www.10xgenomics.com/spatial-transcriptomics): cell capture slides that contain four capture areas with 5,000 barcoded spots
    *  [MERFISH spatial profiling](https://vizgen.com/technology/): built upon single molecule FISH
-*  Regression task to see if there are genes/genes in tissues that are predictive or correlated with disease severity
+*  Regression task to see if there are genes/genes in tissues that are predictive or correlated with disease severity (requires more metadata)
+   *  Classification to predict disease state from transcriptomics (with existing metadata)
 *  Cluster the transcriptomes of patient samples into distinct molecular subtypes
    *  [Tam et. al, Cel Rep. (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6866666/) did these types of analyses in cortex samples from this dataset
+
+*  ChIP-seq/ ATAC-seq
+   *  TDP-43 is a nuclear protein in a non-disease state (Chen-Plotkin, et. al)[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2892118/]
+*  Spatial transcriptomic approach on tissues of interest to see where exactly the differentially expressed genes are and how cells expressing them differ in their tissue architecture
+   *  [10X Visium sequencing](https://www.10xgenomics.com/spatial-transcriptomics): cell capture slides that contain four capture areas with 5,000 barcoded spots
