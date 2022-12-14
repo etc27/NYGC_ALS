@@ -117,6 +117,6 @@ When the targeted tissue type has a relatively stable composition over several s
    *  [Tam et. al, Cel Rep. (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6866666/) did these types of analyses in cortex samples from this dataset
 
 *  ChIP-seq/ ATAC-seq
-   *  TDP-43 is a nuclear protein in a non-disease state (Chen-Plotkin, et. al)[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2892118/]
+   *  TDP-43 is a nuclear protein in a non-disease state [Chen-Plotkin, et. al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2892118/)
 *  Spatial transcriptomic approach on tissues of interest to see where exactly the differentially expressed genes are and how cells expressing them differ in their tissue architecture
    *  [10X Visium sequencing](https://www.10xgenomics.com/spatial-transcriptomics): cell capture slides that contain four capture areas with 5,000 barcoded spots
